@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    urL: jdbc:mysql://test-db.c4wybh857q9a.ap-northeast-2.rds.amazonaws.com/reservation
+    username: admin
+    password: test1234
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+    defer-datasource-initialization: true
