@@ -48,7 +48,7 @@ D --> B
 
 ## Download
 ```
-$ git clone https://github.com/Resilient923/reservation-api.git
+$ git clone https://github.com/Resilient923/lotte-reservation-api.git
 ```
 
 ## Build
